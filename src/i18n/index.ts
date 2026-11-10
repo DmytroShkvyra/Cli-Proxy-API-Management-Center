@@ -7,6 +7,7 @@ import { initReactI18next } from 'react-i18next';
 import zhCN from './locales/zh-CN.json';
 import zhTW from './locales/zh-TW.json';
 import en from './locales/en.json';
+import uk from './locales/uk.json';
 import ru from './locales/ru.json';
 import vi from './locales/vi.json';
 import ko from './locales/ko.json';
@@ -18,6 +19,7 @@ i18n.use(initReactI18next).init({
     'zh-CN': { translation: zhCN },
     'zh-TW': { translation: zhTW },
     en: { translation: en },
+    uk: { translation: uk },
     ru: { translation: ru },
     vi: { translation: vi },
     ko: { translation: ko },
