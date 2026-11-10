@@ -150,7 +150,7 @@
     "cta_inspect_logs": "Переглянути журнали",
     "stats_aria": "Ключові показники",
     "success_rate": "Частка успішних запитів",
-    "stat_success_hint": "Для {{total}} запитів за вибраний період",
+    "stat_success_hint": "Запитів за вибраний період: {{total}}",
     "stat_credentials": "Облікові дані",
     "stat_credentials_hint": "Активні: {{active}} · вимкнені: {{disabled}}",
     "stat_credentials_empty": "Файли облікових даних не знайдено",
@@ -172,13 +172,13 @@
     "fleet_empty": "Трафік провайдера ще не зареєстровано.",
     "fleet_credentials": "Облікові дані: {{value}}",
     "fleet_spark_label": "Обсяг запиту {{provider}}",
-    "fleet_requests": "запити",
+    "fleet_requests": "зап.",
     "provider_unknown": "Невідомий провайдер",
     "health_eyebrow": "Стан",
-    "health_title": "Статус облікових даних",
-    "health_active": "Активний",
-    "health_unavailable": "Недоступний",
-    "health_disabled": "Вимкнено",
+    "health_title": "Стан облікових даних",
+    "health_active": "Активні",
+    "health_unavailable": "Недоступні",
+    "health_disabled": "Вимкнені",
     "health_by_type": "За провайдерами",
     "health_empty": "Файли облікових даних не знайдено.",
     "health_link": "Відкрити файли авторизації",
@@ -983,8 +983,8 @@
     "copied": "Скопійовано"
   },
   "stats": {
-    "success": "Успіху",
-    "failure": "Помилка"
+    "success": "Успішні",
+    "failure": "Невдалі"
   },
   "status_bar": {
     "success_short": "✓",
@@ -1928,7 +1928,7 @@
   "notification": {
     "trusted_proxies_restart_required": "Налаштування надійного проксі-сервера збережено. Перезапустіть серверну частину, щоб застосувати їх.",
     "region_label": "Сповіщення",
-    "type_success": "Успіху",
+    "type_success": "Успішно",
     "type_info": "Інформація",
     "type_warning": "Попередження",
     "type_error": "Помилка",
@@ -1970,7 +1970,7 @@
     "toggle_collapse": "Згорнути бічну панель",
     "expand": "Розгорнути",
     "collapse": "Згорнути",
-    "subtitle": "Консоль API проксі CLI",
+    "subtitle": "Консоль CLIProxyAPI",
     "auth_files_count": "Файли автентифікації: {{count}}"
   },
   "footer": {
